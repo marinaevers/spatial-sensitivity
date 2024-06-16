@@ -1,0 +1,17 @@
+dash==2.17.1
+dash_bootstrap_components==1.6.0
+dash_daq==0.5.0
+dash_html_components==2.0.0
+dash_vtk==0.0.9
+datashader==0.16.2
+h5py==3.11.0
+netCDF4==1.7.0
+netCDF4==1.7.0
+numpy==1.26.4
+pandas==2.2.2
+plotly==5.22.0
+setuptools==58.1.0
+scikit-image==0.22.0
+vtk==9.3.0
+salib==1.5.0
+joblib == 1.4.2

@@ -1,0 +1,13 @@
+Package: fancyParallelCoordinates
+Title: Parallel coordinates that are more beautiful, include a horizontal scrollbar and a filtering option
+Version: 0.0.1
+Description: Parallel coordinates that are more beautiful, include a horizontal scrollbar and a filtering option
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: 
+BugReports: 
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

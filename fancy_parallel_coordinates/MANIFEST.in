@@ -1,0 +1,11 @@
+include fancy_parallel_coordinates/fancy_parallel_coordinates.min.js
+include fancy_parallel_coordinates/fancy_parallel_coordinates.min.js.map
+include fancy_parallel_coordinates/async-*.js
+include fancy_parallel_coordinates/async-*.js.map
+include fancy_parallel_coordinates/*-shared.js
+include fancy_parallel_coordinates/*-shared.js.map
+include fancy_parallel_coordinates/metadata.json
+include fancy_parallel_coordinates/package-info.json
+include README.md
+include LICENSE
+include package.json
