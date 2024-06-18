@@ -30,7 +30,7 @@ source venv/bin/activate
 ```
 Install the visualizations:
 ```
-cd sensitivity_parallel_coordinates; pip install -r requirements.txt; npm install; npm run build; pip install .; cd ..
+cd fancy_parallel_coordinates; pip install -r requirements.txt; npm install; npm run build; pip install .; cd ..
 ```
 ```
 cd horizon_graph; pip install -r requirements.txt; npm install; npm run build; pip install .; cd ..
