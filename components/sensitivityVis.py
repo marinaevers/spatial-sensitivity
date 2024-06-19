@@ -41,5 +41,6 @@ def createSensitivityVis(numHorizons = 4):
                     xLabel="Space Filling Curve",
                     yLabel = "Sensitivity",
                     width=918,
-                    height=400)
+                    height=400,
+                    fontSize=config.FONTSIZE)
     return gg

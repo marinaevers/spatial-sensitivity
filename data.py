@@ -121,6 +121,7 @@ class SensitivityVolumes():
         for i, n in enumerate(names):
             self.volumes += [np.array(data[n])]
             if(not self.names[i] in config.NO_SENSITIVITY_AXES):
+                self.volumes[-1][self.volumes[-1]>1] = 1
                 print(self.names[i] + ": " + str(np.max(self.volumes[i])))
                 self.sensitiveVoxels += [np.sum(self.volumes[i])/np.sum(np.ones(self.volumes[i].shape))]#[np.count_nonzero(self.volumes[i]>0)]
             if 'HeatCapacity' in n:
